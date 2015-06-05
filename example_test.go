@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/rakyll/magicmime"
+	"github.com/dkolbly/magicmime"
 )
 
 // TODO: Remove after Go 1.4.

@@ -15,7 +15,9 @@
 // Package magicmime detects mimetypes using libmagic.
 package magicmime
 
+// #cgo darwin LDFLAGS: -L/usr/local/lib
 // #cgo LDFLAGS: -lmagic
+// #cgo darwin CPPFLAGS: -I/usr/local/include
 // #include <stdlib.h>
 // #include <magic.h>
 import "C"
